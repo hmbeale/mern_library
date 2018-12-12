@@ -10,7 +10,7 @@ const router = express.Router();
 
 // this is our MongoDB database
 //should probably remove credentials from github
-const dbRoute = "mongodb://<user>:<password>@ds121896.mlab.com:21896/hbeale_fullstack";
+const dbRoute = "mongodb://<usr>:<pass>@ds119800.mlab.com:19800/mern_library";
 
 // connects our back end code with the database
 mongoose.connect(
