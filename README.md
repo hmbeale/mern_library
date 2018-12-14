@@ -1,4 +1,14 @@
 # mern_library
-#https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
+A simple MERN stack application which tracks books to read. 
 
-#https://medium.com/@bryantheastronaut/ok-here-we-go-b9f683c5a00c
+### Installing
+```
+git clone https://github.com/hmbeale/restaurant_reviews
+```
+
+### Deployment
+Change the username and password on line 13 in backend/server.js to your own mLab database username and password, then:
+
+```
+npm start
+```
