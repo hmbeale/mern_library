@@ -10,7 +10,7 @@ const router = express.Router();
 
 // this is our MongoDB database
 //should probably remove credentials from github
-const dbRoute = "mongodb://<usr>:<pass>@ds119800.mlab.com:19800/mern_library";
+const dbRoute = "mongodb://<usr>:<pass>@ds121896.mlab.com:21896/hbeale_fullstack";
 
 // connects our back end code with the database
 mongoose.connect(
@@ -60,7 +60,7 @@ router.delete("/deleteData", (req, res) => {
   });
 });
 
-// this is our create methid
+// this is our create method
 // this method adds new data in our database
 router.post("/putData", (req, res) => {
   let data = new Data();
